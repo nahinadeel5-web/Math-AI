@@ -81,7 +81,8 @@ def generate_math_pdf(problem_text, solution_markdown):
     return buffer.getvalue()
 
 # 4. Interface Workspace Layout
-col_workspace, col_history = st.columns()
+col_workspace, col_history = st.columns(2)
+
 
 with col_workspace:
     st.subheader("Workspace")
