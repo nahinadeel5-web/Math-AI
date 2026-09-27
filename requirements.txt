@@ -1,0 +1,6 @@
+google-genai
+streamlit
+pillow
+reportlab
+matplotlib
+numpy
